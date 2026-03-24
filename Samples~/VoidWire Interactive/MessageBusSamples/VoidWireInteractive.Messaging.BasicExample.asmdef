@@ -1,0 +1,17 @@
+{
+    "name": "VoidWireInteractive.Messaging.BasicExample",
+    "rootNamespace": "VoidWireInteractive.Messaging.Samples",
+    "references": [
+        "VoidWireInteractive.Messaging.Contracts",
+        "VoidWireInteractive.Messaging.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

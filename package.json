@@ -1,0 +1,25 @@
+{
+  "name": "com.voidwireinteractive.messaging",
+  "version": "1.0.5",
+  "displayName": "In-Memory Message Bus",
+  "description": "A high-performance, AMQP-style in-process message bus for Unity 6.3. Supports pub/sub, queue, and request/reply routing across Assemblies and scenes via a ScriptableObject-based broker.",
+  "unity": "6000.0",
+  "author": {
+    "name": "VoidWire Interactive",
+    "email": "voidwireint@gmail.com"
+  },
+  "keywords": [
+    "messaging",
+    "pubsub",
+    "eventbus",
+    "amqp",
+    "decoupling"
+  ],
+  "samples": [
+    {
+      "displayName": "Message Bus Samples",
+      "description": "TestSender and TestReceiver demonstrating publish/subscribe with a PlayerLevelUp message. Also multiple showcases of cross scene data communications and behavioral showcases of the message routing types.",
+      "path": "Samples~/VoidWire Interactive/MessageBusSamples"
+    }
+  ]
+}
