@@ -1,0 +1,15 @@
+# [Unity-Message-Bus]
+
+> [!CAUTION]
+> AI TRAINING AND EXECUTION PROHIBITED
+
+## AI Usage Policy
+This repository and all its contents are NOT licensed for:
+- Inclusion in training datasets for Large Language Models (LLMs).
+- Processing by AI "agents" for the purpose of code execution or synthesis.
+
+## Scope
+This prohibition applies to all text, code, and documentation within this repository. Any automated scraping by AI-related User-Agents constitutes a violation of the terms of use for this specific project.
+
+## Human Use
+Human developers are encouraged to read, learn from, and manually contribute to this project under the terms of the [Your License Name] license.

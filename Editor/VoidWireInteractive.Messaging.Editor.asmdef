@@ -1,0 +1,19 @@
+{
+    "name": "VoidWireInteractive.Messaging.Editor",
+    "rootNamespace": "VoidWireInteractive.Messaging.Editor",
+    "references": [
+        "VoidWireInteractive.Messaging.Contracts",
+        "VoidWireInteractive.Messaging.Core"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
