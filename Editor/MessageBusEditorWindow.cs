@@ -7,7 +7,7 @@ using VoidWireInteractive.Messaging.Core;
 namespace VoidWireInteractive.Messaging.Editor
 {
     /// <summary>
-    /// Realtime MessageBus telemetry monitor. Open via Window > VoidWire Interactive > Messaging > Bus Monitor. During Play Mode, polls all MessageBus assets in the project and displays<br/>
+    /// Realtime MessageBus telemetry monitor. Open via Window > Void Wire Interactive > Messaging > Bus Monitor. During Play Mode, polls all MessageBus assets in the project and displays<br/>
     /// 
     /// - Active subscriber count per message type<br/>
     /// - Total messages published per type<br/>
@@ -31,7 +31,7 @@ namespace VoidWireInteractive.Messaging.Editor
         private GUIStyle _dropStyle;
         private GUIStyle _dimStyle;
 
-        [MenuItem("Window/VoidWire Interactive/Messaging/Bus Monitor")]
+        [MenuItem("Window/Void Wire Interactive/Messaging/Bus Monitor")]
         public static void ShowWindow()
         {
             var window = GetWindow<MessageBusEditorWindow>();
@@ -74,7 +74,7 @@ namespace VoidWireInteractive.Messaging.Editor
             if (_busAssets.Length == 0)
             {
                 EditorGUILayout.HelpBox(
-                    "No MessageBus assets found in the project. Create one via Assets > Create > VoidWire Interactive > Messaging > Message Bus.",
+                    "No MessageBus assets found in the project. Create one via Assets > Create > Void Wire Interactive > Messaging > Message Bus.",
                     MessageType.Info);
                 return;
             }

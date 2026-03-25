@@ -29,7 +29,7 @@ Or you could also add a reference into  `Packages/manifest.json`:
 ## Quick Start
 
 ### 1. Create a bus asset scriptable object
-`Assets/Create/VoidWire Interactive/Messaging/Message Bus`
+`Assets/Create/Void Wire Interactive/Messaging/Message Bus`
 
 ### 2. Define a message
 ```csharp
@@ -106,7 +106,7 @@ Each bus has its own channel, its own capacity settings, and its own subscriber 
 
 ## Editor Monitor
 
-**Window/VoidWire Interactive/Messaging/Bus Monitor**
+**Window/Void Wire Interactive/Messaging/Bus Monitor**
 
 During Play Mode, shows subscriber count by type, publish count, drop count, and channel backlog for every bus asset in the project. A non zero Drop count means `_channelCapacity` needs increasing.
 
@@ -117,7 +117,7 @@ Runtime/
   Contracts/VoidWireInteractive.Messaging.Contracts: IMessage interface only. No Unity deps
   Core/VoidWireInteractive.Messaging.Core: MessageBus, BusRouter, MonoBehaviourSubscriber
   Editor/VoidWireInteractive.Messaging.Editor: EditorWindow 
-  Samples~/VoidWire Interactive/MessageBusSamples: optional samples you can import via package manager
+  Samples~/Void Wire Interactive/MessageBusSamples: optional samples you can import via package manager
 ```
 
 Your game assemblies reference `VoidWireInteractive.Messaging.Contracts` for message types and `VoidWireInteractive.Messaging.Core` for the bus API. They never reference each other.
