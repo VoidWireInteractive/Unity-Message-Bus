@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 5881344775270735154}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: -2.58, y: 0, z: 3.07}
+  m_LocalPosition: {x: 3.12, y: -0, z: 2.31}
   m_LocalScale: {x: 2.5461109, y: 2.5461092, z: 2.5461092}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43,7 +43,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5881344775270735154}
-  m_Mesh: {fileID: 8070366893911107719, guid: 623e587df3b57c14bbdf739929e3d1c8, type: 3}
+  m_Mesh: {fileID: 8070366893911107719, guid: eed9b41b04caebb4b8a55fb7d76e9f36, type: 3}
 --- !u!23 &9001134938992680282
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -69,7 +69,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 37332d37a85eea943906bc59212d3ee4, type: 2}
+  - {fileID: 2100000, guid: c136125feeb0dc74e86be3c43849cc2e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -102,10 +102,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5881344775270735154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cfb79f9928b2db48aff175fdc43c937, type: 3}
+  m_Script: {fileID: 11500000, guid: c5946b2a6aedaed4ca136f3f7598aadd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.PositionReceiveReply
-  _bus: {fileID: 11400000, guid: e3807f2da204c1049836d35b1ec1c94c, type: 2}
+  _bus: {fileID: 11400000, guid: fa34cdd7d23eae24fa86f6ae53fbd67b, type: 2}
 --- !u!114 &-1581717097748892729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5881344775270735154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2e6c1163972b4747bc25807b828f12a, type: 3}
+  m_Script: {fileID: 11500000, guid: 264973dab77a4124bbc183f5e2e5d7f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.DeleteTargetOnReached
 --- !u!135 &6801467284001983714

@@ -69,7 +69,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 57b72a054f40c5942a9b441e0fa8c5f5, type: 2}
+  - {fileID: 2100000, guid: 097d31416c677e8418f90cb3b5e2e59a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -125,13 +125,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7227056833787048555}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c13475bc5f3dfe544bd93994158fa2c4, type: 3}
+  m_Script: {fileID: 11500000, guid: 2611d55366c766541bf03b9d55254661, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.PositionRequester
   possibleRequests:
-  - {fileID: 11400000, guid: df153f151a454234fb7b81d328bbde04, type: 2}
-  - {fileID: 11400000, guid: e07f92a4cb88b2640a10a54d07365a3f, type: 2}
-  - {fileID: 11400000, guid: e3807f2da204c1049836d35b1ec1c94c, type: 2}
+  - {fileID: 11400000, guid: a0589adfdb8c5db4fb6503cc6fdd5eb3, type: 2}
+  - {fileID: 11400000, guid: b515949e52cadd746b84ee1ba413feba, type: 2}
+  - {fileID: 11400000, guid: fa34cdd7d23eae24fa86f6ae53fbd67b, type: 2}
   MessageFrequency: 3
 --- !u!54 &6210714094803796617
 Rigidbody:

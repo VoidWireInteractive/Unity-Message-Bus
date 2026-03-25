@@ -68,7 +68,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4fbb305efa6c25d44bbeb78c680b54e4, type: 2}
+  - {fileID: 2100000, guid: b891b5996f6e7824b8252bf233a1b36f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -122,9 +122,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2496292826326382045}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 539c66336543ce44a80ab58d1dbbe3b6, type: 3}
+  m_Script: {fileID: 11500000, guid: 39c5e626857936540b02d4050d2cc514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.PositionReceiver
-  _bus: {fileID: 11400000, guid: 5f315f901a6928b498c240cce90ddf3b, type: 2}
+  _bus: {fileID: 11400000, guid: 026a6b08eb38ed04ab27930d4f2fb70f, type: 2}
   _routingMode: 1
   MyInstanceId: 

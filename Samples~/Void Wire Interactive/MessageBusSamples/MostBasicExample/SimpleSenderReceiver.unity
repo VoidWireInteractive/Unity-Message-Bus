@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1416820414}
-  - component: {fileID: 1416820413}
+  - component: {fileID: 1416820415}
   m_Layer: 0
   m_Name: Test Sender
   m_TagString: Untagged
@@ -136,20 +136,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1416820413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1416820412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd57ea9eda07cb249a79f7bf61247e44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.TestSender
-  _bus: {fileID: 11400000, guid: 8e1efcbb27532fe49944592e04c38e15, type: 2}
-  _burstCount: 200
 --- !u!4 &1416820414
 Transform:
   m_ObjectHideFlags: 0
@@ -165,6 +151,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1416820415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416820412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1725abb47f58e0040bfc1ea383a33fda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.TestSender
+  _bus: {fileID: 11400000, guid: 175da23839c567045af4b3ea908939fa, type: 2}
+  _burstCount: 200
 --- !u!1 &1534604627
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,7 +174,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1534604629}
-  - component: {fileID: 1534604628}
+  - component: {fileID: 1534604631}
   - component: {fileID: 1534604630}
   m_Layer: 0
   m_Name: Receiver
@@ -183,21 +183,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1534604628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534604627}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 101f670b3158b0c4b9952f4552ce6e9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.TestReceiver
-  _bus: {fileID: 11400000, guid: 8e1efcbb27532fe49944592e04c38e15, type: 2}
-  _routingMode: 2
-  _receiverName: ReceiverA
 --- !u!4 &1534604629
 Transform:
   m_ObjectHideFlags: 0
@@ -222,10 +207,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1534604627}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06773b48edb95ed4ead4e00c42e133e5, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f099e284c998e346bb5ccfc5cda97b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.TestReceiver
+  _bus: {fileID: 11400000, guid: 175da23839c567045af4b3ea908939fa, type: 2}
+  _routingMode: 0
+  _receiverName: ReceiverA
+--- !u!114 &1534604631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534604627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c0c1f15a75c38f47a6427ab4eeca867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.HealthResponder
-  _bus: {fileID: 11400000, guid: 8e1efcbb27532fe49944592e04c38e15, type: 2}
+  _bus: {fileID: 11400000, guid: 175da23839c567045af4b3ea908939fa, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
