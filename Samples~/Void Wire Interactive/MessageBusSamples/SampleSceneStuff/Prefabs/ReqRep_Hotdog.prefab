@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1721464224296034369}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.110000014, y: 0.006909132, z: 2.6}
+  m_LocalPosition: {x: 0.01, y: 0, z: -2.7163315}
   m_LocalScale: {x: 8.0761, y: 8.0760975, z: 8.0760975}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -44,7 +44,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721464224296034369}
-  m_Mesh: {fileID: 8467973019869391972, guid: 420c1e6701a1cdb4198ee5156eec4e67, type: 3}
+  m_Mesh: {fileID: 8467973019869391972, guid: aea4d98cfd0b5054fb0158301e2a4d4a, type: 3}
 --- !u!23 &3888104692661448294
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -70,7 +70,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f8037bb84ce46964b8c85d9bc03393a6, type: 2}
+  - {fileID: 2100000, guid: 985dd91a079a69945ad2a2e8e41bdc11, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -103,10 +103,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1721464224296034369}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cfb79f9928b2db48aff175fdc43c937, type: 3}
+  m_Script: {fileID: 11500000, guid: c5946b2a6aedaed4ca136f3f7598aadd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.PositionReceiveReply
-  _bus: {fileID: 11400000, guid: e07f92a4cb88b2640a10a54d07365a3f, type: 2}
+  _bus: {fileID: 11400000, guid: b515949e52cadd746b84ee1ba413feba, type: 2}
 --- !u!114 &7179868073856736748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1721464224296034369}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2e6c1163972b4747bc25807b828f12a, type: 3}
+  m_Script: {fileID: 11500000, guid: 264973dab77a4124bbc183f5e2e5d7f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.DeleteTargetOnReached
 --- !u!135 &7543007839886137659
@@ -180,7 +180,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5987845853156716623}
-  m_Mesh: {fileID: 157181980054189194, guid: 420c1e6701a1cdb4198ee5156eec4e67, type: 3}
+  m_Mesh: {fileID: 157181980054189194, guid: aea4d98cfd0b5054fb0158301e2a4d4a, type: 3}
 --- !u!23 &2416371417284402324
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -206,7 +206,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 478030e030d4d574ebe1b813f736e1aa, type: 2}
+  - {fileID: 2100000, guid: bfdeed3a8a27773498ecba3ddd81eb94, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

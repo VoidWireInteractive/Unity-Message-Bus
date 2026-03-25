@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -128,8 +128,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 387014272}
-  - component: {fileID: 387014273}
   - component: {fileID: 387014274}
+  - component: {fileID: 387014273}
   m_Layer: 0
   m_Name: CustomerReplySpawner_RequestReplyMode
   m_TagString: Untagged
@@ -146,7 +146,7 @@ Transform:
   m_GameObject: {fileID: 387014271}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.116079986, y: 0, z: -3.9900103}
+  m_LocalPosition: {x: 0.116079986, y: 0, z: 0.010000229}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -159,14 +159,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 387014271}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f8c420a460ef14fa64471ffa75d458, type: 3}
+  m_Script: {fileID: 11500000, guid: 4631a35371942454bbb74399d1a57788, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.SpawnerReciever
-  _bus: {fileID: 11400000, guid: e5e994d6b5cae9a4c886f2600e26575c, type: 2}
-  _routingMode: 0
-  spawnComponent: {fileID: 387014274}
+  m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.SpawnFollowers
+  spawnCount: 1
+  radius: 5
+  prefab: {fileID: 1721464224296034369, guid: 8b569a2c86ee2a44aa2082a8990c1b1b, type: 3}
+  randomizePosition: 0
 --- !u!114 &387014274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,15 +175,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 387014271}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c7e45c210c997240a08e7604baa0cc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ff5c020107100744bddedf89a28f95d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.SpawnFollowers
-  spawnCount: 1
-  radius: 6
-  prefab: {fileID: 1721464224296034369, guid: a907aa6096e6a434e846e7e80cc73f5b, type: 3}
-  randomizePosition: 0
+  m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.SpawnerReciever
+  _bus: {fileID: 11400000, guid: f860980bb07a3994e97bea59f93da55e, type: 2}
+  _routingMode: 0
+  spawnComponent: {fileID: 387014273}
 --- !u!1 &599833674
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,8 +192,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 599833675}
-  - component: {fileID: 599833676}
   - component: {fileID: 599833677}
+  - component: {fileID: 599833676}
   m_Layer: 0
   m_Name: CustomerReplySpawner_RequestReplyMode
   m_TagString: Untagged
@@ -210,7 +210,7 @@ Transform:
   m_GameObject: {fileID: 599833674}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.116079986, y: 0, z: -3.9900103}
+  m_LocalPosition: {x: 0.116079986, y: 0, z: 0.010000229}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -223,14 +223,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599833674}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f8c420a460ef14fa64471ffa75d458, type: 3}
+  m_Script: {fileID: 11500000, guid: 4631a35371942454bbb74399d1a57788, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.SpawnerReciever
-  _bus: {fileID: 11400000, guid: e5e994d6b5cae9a4c886f2600e26575c, type: 2}
-  _routingMode: 0
-  spawnComponent: {fileID: 599833677}
+  m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.SpawnFollowers
+  spawnCount: 1
+  radius: 5
+  prefab: {fileID: 5881344775270735154, guid: ea945a3f70ea6364f8e177052a7a5b08, type: 3}
+  randomizePosition: 0
 --- !u!114 &599833677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,15 +239,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599833674}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c7e45c210c997240a08e7604baa0cc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ff5c020107100744bddedf89a28f95d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.SpawnFollowers
-  spawnCount: 1
-  radius: 6
-  prefab: {fileID: 5881344775270735154, guid: d482ffaa17eb58e40b48505cca869b1b, type: 3}
-  randomizePosition: 0
+  m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.SpawnerReciever
+  _bus: {fileID: 11400000, guid: f860980bb07a3994e97bea59f93da55e, type: 2}
+  _routingMode: 0
+  spawnComponent: {fileID: 599833676}
 --- !u!1 &705839676
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,12 +274,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 705839676}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c7e45c210c997240a08e7604baa0cc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 4631a35371942454bbb74399d1a57788, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.SpawnFollowers
   spawnCount: 100
   radius: 5
-  prefab: {fileID: 2496292826326382045, guid: b275a99af127f42469c93c6f0d31a231, type: 3}
+  prefab: {fileID: 2496292826326382045, guid: 8919e48a912d3e640a0e679d5c673cb7, type: 3}
   randomizePosition: 1
 --- !u!4 &705839678
 Transform:
@@ -305,10 +305,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 705839676}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f8c420a460ef14fa64471ffa75d458, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ff5c020107100744bddedf89a28f95d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.SpawnerReciever
-  _bus: {fileID: 11400000, guid: 9d8bd7b01dccbec4faf42537653b71b1, type: 2}
+  _bus: {fileID: 11400000, guid: 8d98f022ae8b4654785c54ec9eaf035a, type: 2}
   _routingMode: 0
   spawnComponent: {fileID: 705839677}
 --- !u!1 &966480362
@@ -338,12 +338,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 966480362}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c7e45c210c997240a08e7604baa0cc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 4631a35371942454bbb74399d1a57788, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.SpawnFollowers
   spawnCount: 1
-  radius: 6
-  prefab: {fileID: 5162076759545101935, guid: 63baf1aaba8be0a4aa746720615c471d, type: 3}
+  radius: 5
+  prefab: {fileID: 5162076759545101935, guid: 31a72044170cf924abf0d2edfc4f94e7, type: 3}
   randomizePosition: 0
 --- !u!4 &966480364
 Transform:
@@ -354,7 +354,7 @@ Transform:
   m_GameObject: {fileID: 966480362}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.116079986, y: 0, z: -3.9900103}
+  m_LocalPosition: {x: 0.116079986, y: 0, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -369,10 +369,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 966480362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f8c420a460ef14fa64471ffa75d458, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ff5c020107100744bddedf89a28f95d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.SpawnerReciever
-  _bus: {fileID: 11400000, guid: e5e994d6b5cae9a4c886f2600e26575c, type: 2}
+  _bus: {fileID: 11400000, guid: f860980bb07a3994e97bea59f93da55e, type: 2}
   _routingMode: 0
   spawnComponent: {fileID: 966480363}
 --- !u!1 &1141422754
@@ -438,12 +438,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1579985740}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c7e45c210c997240a08e7604baa0cc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 4631a35371942454bbb74399d1a57788, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.SpawnFollowers
-  spawnCount: 100
+  spawnCount: 50
   radius: 5
-  prefab: {fileID: 2496292826326382045, guid: 31f6f8e0dd4c7244993ec76dfc0415d3, type: 3}
+  prefab: {fileID: 2496292826326382045, guid: d15586b26d10206499808de4663b08d5, type: 3}
   randomizePosition: 1
 --- !u!4 &1579985742
 Transform:
@@ -469,11 +469,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1579985740}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f8c420a460ef14fa64471ffa75d458, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ff5c020107100744bddedf89a28f95d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VoidWireInteractive.Messaging.BasicExample::VoidWireInteractive.Messaging.Samples.SpawnerReciever
-  _bus: {fileID: 11400000, guid: 7eefae60862558e4ca5191852cd56fef, type: 2}
-  _routingMode: 1
+  _bus: {fileID: 11400000, guid: 25f866979c17050409e4bb8271f1a517, type: 2}
+  _routingMode: 0
   spawnComponent: {fileID: 1579985741}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

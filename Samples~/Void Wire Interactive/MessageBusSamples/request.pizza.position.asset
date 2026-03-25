@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d8f349fc9510e6488071476cd0c6cb8, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b1db9a614103264aa3116975aa92d35, type: 3}
   m_Name: request.pizza.position
   m_EditorClassIdentifier: VoidWireInteractive.Messaging.Core::VoidWireInteractive.Messaging.Core.MessageBus
   _channelCapacity: 1024
