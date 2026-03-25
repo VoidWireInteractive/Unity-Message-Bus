@@ -8,12 +8,12 @@ using UnityEngine;
 namespace VoidWireInteractive.Messaging.Core
 {
     /// <summary>
-    /// The central message broker. Create via Assets/VoidWire Interactive/Create/Messaging/Message Bus, then assign to a feild on any MonoBehaviour that needs to publish or subscribe.
+    /// The central message broker. Create via Assets/Void Wire Interactive/Create/Messaging/Message Bus, then assign to a feild on any MonoBehaviour that needs to publish or subscribe.
     ///
     /// Multiple bus assets are supported: one global bus, one per scene, one per subsystem.
     ///"OnEnable" starts the channel and routing loop and "OnDisable" shuts them down cleanly. The asset persists across scene loads because it lives in the project, not in a scene.
     /// </summary>
-    [CreateAssetMenu(fileName = "new MessageBus", menuName = "VoidWire Interactive/Messaging/Message Bus")]
+    [CreateAssetMenu(fileName = "new MessageBus", menuName = "Void Wire Interactive/Messaging/Message Bus")]
     public sealed class MessageBus : ScriptableObject
     {
         [Tooltip("Maximum messages the channel can buffer before applying the FullMode policy. Increase if you see drop warnings in the Bus Monitor or Console.")]

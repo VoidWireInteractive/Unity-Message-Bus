@@ -5,7 +5,7 @@
   "description": "A high-performance, AMQP-style in-process message bus for Unity 6.3. Supports pub/sub, queue, and request/reply routing across Assemblies and scenes via a ScriptableObject-based broker.",
   "unity": "6000.0",
   "author": {
-    "name": "VoidWire Interactive",
+    "name": "Void Wire Interactive",
     "email": "voidwireint@gmail.com"
   },
   "keywords": [
@@ -19,7 +19,7 @@
     {
       "displayName": "Message Bus Samples",
       "description": "TestSender and TestReceiver demonstrating publish/subscribe with a PlayerLevelUp message. Also multiple showcases of cross scene data communications and behavioral showcases of the message routing types.",
-      "path": "Samples~/VoidWire Interactive/MessageBusSamples"
+      "path": "Samples~/Void Wire Interactive/MessageBusSamples"
     }
   ]
 }
