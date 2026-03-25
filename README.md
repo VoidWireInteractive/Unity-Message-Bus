@@ -1,7 +1,7 @@
 # In Memory Message Bus for Unity
 Memory based messaging system akin to ampq style service bus messaging. This enables easy and fast message brokering and reception between scenes via separate assemblies using unity's scriptable objects, mimicing the functionality you'd expect from a Service Bus resource, but without any network tcp/ip layers. This runs specifically in memory to allow multiple styles of Queue/topic subscription based message capabilities. Coming from a microservices background, I decided to see if a simple messaging system, akin to Azure Service Bus, would be possible to establish an efficient and reliable communication bridge between Unity scenes. The result is a decently performant, AMQP style message broker for communicating between Assemblies and scenes without coupling, network layers, or cloud services. Created using 6.3, but it may work with previous 6.xxx versions. 
 
-Due to using some v6 specific apis (`Awaitable.MainThreadAsync`), I'd assume it would not work with < 6 Unity versions.
+Due to using some v6 specific apis (`Awaitable.MainThreadAsync`) in particular, so it will not work with < 6 Unity versions without a bit of modification.
 
 > [!IMPORTANT]
 > **AI Usage Restricted:** This repository is for human developers only. AI training, scraping, and synthesis are strictly prohibited. See [llms.txt](llms.txt) for details. 
