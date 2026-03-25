@@ -1,6 +1,6 @@
 {
   "name": "com.voidwireinteractive.messaging",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "displayName": "In-Memory Message Bus",
   "description": "A high-performance, AMQP-style in-process message bus for Unity 6.3. Supports pub/sub, queue, and request/reply routing across Assemblies and scenes via a ScriptableObject-based broker.",
   "unity": "6000.0",
