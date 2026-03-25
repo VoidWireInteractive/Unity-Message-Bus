@@ -5,8 +5,8 @@ Memory based messaging system akin to ampq style service bus messaging. This ena
 > **AI Usage Restricted:** This repository is for human developers only. AI training, scraping, and synthesis are strictly prohibited. See [llms.txt](llms.txt) for details. 
 
 ---
-# In Memory Message Bus for Unity 6
-A high-performance, AMQP style message broker for communicating between Assemblies and scenes without coupling, network layers, or cloud services.
+# In Memory Message Bus for Unity
+A high-performance, AMQP style message broker for communicating between Assemblies and scenes without coupling, network layers, or cloud services. Created using 6.3, but it may work with previous versions.
 
 ## Core Concepts
 
